@@ -1,0 +1,70 @@
+.mainfour{
+   width: 100%;
+   height: 442px;
+   background-image: url(../img/bg4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.fontwo{
+   background: rgba(0, 0, 0, 0.5) !important;
+   width: 100%;
+   height: 442px;
+}
+.mainfour__title{
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 36px;
+   color: white;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 1170px;
+   height: 150px;
+   padding-top: 50px;
+}
+.mainfour__separator{
+   border-bottom: 1px solid white;
+   width: 170px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.mainfour__text{
+   width: 1169px;
+   height: 21px;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   text-align: center;
+   color: white;
+   margin-top: 40px;
+}
+.mainfour__button{
+   color: white;
+   border: 2px solid white;
+   width: 370px;
+   height: 58px;
+   background-color: rgba(28,28,28,0);
+   font-family: 'Open Sans';
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 73px;
+}
+.mainfour__button:hover{
+   border: 2px solid #EC7979;
+   color: #EC7979;
+}
+.mainfour__button:active{
+   background-color: #AB4949 ;
+   border: 2px solid #AB4949;
+   color: #FFFFFF;
+}
