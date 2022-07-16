@@ -1,0 +1,211 @@
+body {
+   margin: 0;
+   overflow-x: hidden !important
+}
+
+.header{
+   width: 100%;
+   height: 1164px;
+}
+.header__head{
+   width: 100%;
+   height: 75px;
+   background-color: black ;
+}
+.header__head__logo{
+   margin-left: 116px;
+   padding-top: 19px ;
+   display: inline-block;
+}
+.header__head__menu{
+   float: right;
+   padding-top: 25px;
+   display: flex;
+}
+.header__head__menu__button{
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 14px;
+   width: 113.8px;
+   height: 75px;
+   background-color: rgba(28,28,28,0);
+   border: 0px;
+   position: relative;
+   right: 170px;
+   bottom: 25px;
+}
+.header__head__menu__button:hover{
+ background-color: #EC7979;
+}
+.header__head__menu__button:active{
+   background-color: #AB4949;
+
+}
+
+
+
+
+
+
+.header__main{
+   width: 100%;
+   height: 951px;
+   background: url(city.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.header__main__left{
+   position: relative;
+   top: 231px;
+   left: 170px;
+}
+.header__main__left_text{
+   width: 670px;
+   height: 169px;
+   font-family: Raleway,  sans-serif;
+   font-size: 48px;
+   font-weight: 500;
+   text-align: left;
+   color: white;
+   line-height: 56.35px;
+   margin-top: 72.88px;
+}
+.header__main__left_separator{
+   width: 170px;
+   height: 0px;
+   border-bottom: 1px solid white;
+   margin-top: 55.12px;
+}
+.header__main__left_smalltext{
+   width: 270px;
+   height: 42px;
+   color: white;
+   font-family: Raleway, sans-serif ;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.13px;
+   text-align: left;
+   margin-top: 42px;
+   margin-bottom: 42px;
+}
+.header__main__left_button{
+   border: 2px solid white;
+   background-color: rgba(28,28,28,0);
+   color: white;
+   width: 270px;
+   height: 58px;
+   font-weight: 600;
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+}
+.header__main__right{
+   width: 470px;
+   height: 450px;
+   background-color: white;
+   position: relative;
+   left: 900px;
+   bottom: 330px;
+   border-radius: 10px;
+}
+.header__main__right__text{
+   width: 367px;
+   height: 90px;
+   font-size: 24px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   color: #333333;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   margin-left: 50px ;
+   margin-bottom: 45px;
+}
+.header__main__right__FREE{
+   white-space: pre-wrap;
+   color: #EC7979;
+}
+.header__main__right__inputone{
+   outline: none;
+   border-bottom: 1px solid #BDBDBD !important;
+   border: 0px ;
+   width: 370px;
+   color: #BDBDBD;
+   margin-left: 40px;
+   margin-bottom: 30px;
+   padding-bottom: 16px;
+}
+.header__main__right__button{
+   background: #EC7979;
+   border-radius: 0px 0px 10px 10px;
+   width: 470px;
+   height: 60px;
+   border: 0px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 15px;
+   color: white;
+   margin-top: 60px;
+}
+.header__footer{
+   width: 100%;
+   height: 140px;
+   background-color: #F8EFEF;
+   display: flex;
+
+}
+.header__footer__left{
+   height: 140px;
+   width: 470px;
+   margin-left: 170px;
+}
+.header__footer__left__title{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   width: 470px;
+   height: 60px;
+   color: #333333;
+   display: flex;
+   align-items: center;
+}
+.header__footer__left__text{
+   color: #86878B;
+   width: 470px;
+   height: 42px;
+   line-height: 21px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+}
+.header__footer_right__img{
+   margin-left: 40px;
+   position: relative;
+   top: 33px;
+   left: 80px;
+}
+.f{
+   position: relative;
+   top: 25px;
+   left: 50px;
+}
+.header__main__left_button:hover{
+   border: 2px solid #EC7979;
+   color: #EC7979;
+}
+.header__main__left_button:active{
+   background-color: #AB4949 ;
+   border: 2px solid #AB4949;
+   color: #FFFFFF;
+}
+.header__main__right__button:hover{
+   background-color: #AB4949;
+}
+.header__main__right__button:active{
+   background-color: #EC7979;
+}
+.fon{
+   background: rgba(0, 0, 0, 0.5) !important;
+}
