@@ -1,4 +1,4 @@
-.mainfive{
+.contact{
    width: 1170px;
    height: 622px;
    margin-right: auto;
@@ -6,7 +6,7 @@
    margin-top: 50px;
    margin-bottom: 50px;
 }
-.mainfive__title{
+.contact__title{
    width: 1170px;
    height: 150px;
    font-size: 36px;
@@ -17,13 +17,13 @@
    align-items: center;
    justify-content: center;
 }
-.mainfive__separator{
+.contact__separator{
    width: 170px;
    border-bottom: 1px solid #EC7979 ;
    margin-left: auto;
    margin-right: auto;
 }
-.mainfive__text{
+.contact__text{
    margin-left: auto;
    margin-right: auto;
    font-family: 'Raleway';
@@ -32,11 +32,11 @@
    color: #86878B;
    margin-top: 40px;
 }
-.mainfive__left{
+.contact__left{
    display: flex;
    flex-direction: column;
 }
-.mainfive__left__input{
+.contact__left__input{
    outline: none;
    border-bottom: 1px solid #BDBDBD !important;
    border: 0px ;
@@ -47,12 +47,12 @@
    font-family: 'Open Sans';
    font-weight: 400;
 }
-.mainfive__allinputs{
+.contact__allinputs{
    display: flex;
    align-items: flex-start;
    margin-top: 89px;
 }
-.mainfive__right__textarea{
+.contact__right__textarea{
    outline: none;
    border-bottom: 1px solid #BDBDBD !important;
    border: 0px ;
@@ -67,7 +67,7 @@
    font-family: 'Open Sans';
    font-weight: 400;
 }
-.mainfive__button{
+.contact__button{
    background-color: #EC7979 ;
    color: white;
    font-family: 'Open Sans';
@@ -87,9 +87,9 @@ input::-webkit-input-placeholder{
 textarea::-webkit-input-placeholder{
    color: #BDBDBD;
 }
-.mainfive__button:hover{
+.contact__button:hover{
    background-color: #AB4949;
 }
-.mainfive__button:active{
+.contact__button:active{
    background-color: #EC7979;
 }
