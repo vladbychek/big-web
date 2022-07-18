@@ -80,6 +80,7 @@
    position: relative;
    bottom: 215px;
    left: 390px;
+   cursor: pointer;
 }
 input::-webkit-input-placeholder{
    color: #BDBDBD;

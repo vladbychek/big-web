@@ -53,6 +53,7 @@
    font-weight: 600;
    line-height: 25px;
    color: white;
+   cursor: pointer;
 }
 .main__tab__img{
    width: 470px;

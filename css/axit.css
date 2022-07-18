@@ -1,6 +1,6 @@
 body {
    margin: 0;
-   overflow-x: hidden !important
+   overflow-x: hidden; !important
 }
 .header{
    width: 100%;
@@ -18,28 +18,8 @@ body {
 }
 .header__head__menu{
    float: right;
-   padding-top: 25px;
    display: flex;
-}
-.header__head__menu__button{
-   color: white;
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 600;
-   font-size: 14px;
-   width: 113.8px;
-   height: 75px;
-   background-color: rgba(28,28,28,0);
-   border: 0px;
-   position: relative;
-   right: 170px;
-   bottom: 25px;
-}
-.header__head__menu__button:hover{
- background-color: #EC7979;
-}
-.header__head__menu__button:active{
-   background-color: #AB4949;
-
+   margin-right: 170px;
 }
 .header__main{
    width: 100%;
@@ -48,11 +28,6 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-}
-.header__main__left{
-   position: relative;
-   top: 150px;
-   left: 170px;
 }
 .header__main__left_text{
    width: 670px;
@@ -92,14 +67,12 @@ body {
    font-weight: 600;
    font-size: 18px;
    font-family: 'Open Sans', sans-serif;
+   cursor: pointer;
 }
 .header__main__right{
    width: 470px;
    height: 450px;
    background-color: white;
-   position: relative;
-   left: 1100px;
-   bottom: 330px;
    border-radius: 10px;
 }
 .header__main__right__text{
@@ -140,6 +113,7 @@ body {
    font-size: 15px;
    color: white;
    margin-top: 64px;
+   cursor: pointer;
 }
 .header__footer{
    width: 100%;
@@ -201,4 +175,40 @@ body {
 }
 .fon{
    background: rgba(0, 0, 0, 0.5) !important;
+   position: relative;
+   height: 952px;
+}
+.leftandright{
+   width: 1170px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto auto;
+   align-items:center ;
+   padding-top: 150px;
+}
+.header__head__menu__link{
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 14px;
+   width: 113.8px;
+   height: 75px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+a{
+   text-decoration: none;
+}
+a:link{
+   color: white;
+}
+a:visited{
+   color: white;
+}
+.header__head__menu__link:hover{
+   background-color: #EC7979;
+}
+.header__head__menu__link:active{
+   background-color:  #AB4949;
 }

@@ -58,6 +58,7 @@
    margin-left: auto;
    margin-right: auto;
    margin-top: 73px;
+   cursor: pointer;
 }
 .stylish__button:hover{
    border: 2px solid #EC7979;
