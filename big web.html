@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="css/stylish.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body>
     <header>
@@ -36,7 +38,6 @@
                 </div>
             </div>
             <div class="header__main">
-            <div class="fon">
             <div class="leftandright">
                 <div class="header__main__left">
                     <div class="header__main__left__logo">
@@ -56,91 +57,98 @@
                 </div>
                 <form class="header__main__right">
                     <div class="header__main__right__text">TRY YOUR <span class="header__main__right__free"> FREE </span> TRIAL TODAY</div>
+                    <div class="threeinput">
                     <input class="header__main__right__inputone" required type="text" placeholder="Name">
                     <input class="header__main__right__inputone" required type="email" placeholder="Email">               
                     <input class="header__main__right__inputone" required type="password" placeholder="Password">
+                    </div>
                     <button class="header__main__right__button">Get Started</button>
                 </form>
-            </div    >
             </div>
             </div>
             <div class="header__footer">
-                <div class="header__footer__left">
-                    <div class="header__footer__left__title">Social Media</div>
-                    <div class="header__footer__left__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Aenean euismod bibendum laoreet.</div>
-                </div>
-                <div class="header__footer_right">
-                    <img class="f" src="img/f.png">
-                    <img class="header__footer_right__img" src="img/tw.png">
-                    <img class="header__footer_right__img" src="img/in.png">
-                    <img class="header__footer_right__img" src="img/p.png">
-                    <img class="header__footer_right__img" src="img/inst.png">
-                    <img class="header__footer_right__img" src="img/cat.png">
-                    <img class="header__footer_right__img" src="img/wifi.png">
+                <div class="footercont">
+                    <div class="header__footer__left">
+                        <div class="header__footer__left__title">Social Media</div>
+                        <div class="header__footer__left__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Aenean euismod bibendum laoreet.</div>
+                    </div>
+                    <div class="header__footer__right">
+                        <img class="f" src="img/f.png">
+                        <img class="header__footer_right__img" src="img/tw.png">
+                        <img class="header__footer_right__img" src="img/in.png">
+                        <img class="header__footer_right__img" src="img/p.png">
+                        <img class="header__footer_right__img" src="img/inst.png">
+                        <img class="header__footer_right__img" src="img/cat.png">
+                        <img class="header__footer_right__img" src="img/wifi.png">
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <main>
         <div class="tabandawesome">
-            <div class="main__tab">
-                <a name="tab"></a>
-                <div class="main__tab__left">
-                    <div>
-                        <div class="main__tab__left__smalltab specialtab">TAB 1</div>
+            <div class="block">
+                <div class="main__tab">
+                    <a name="tab"></a>
+                    <div class="tabs">
+                        <div class="main__tab__left__smalltab one">TAB 1</div>
                         <div class="main__tab__left__smalltab">TAB 2</div>
                         <div class="main__tab__left__smalltab">TAB 3</div>
                     </div>
-                    <div>
-                        <h3 class="main__tab__left__title">Tabs with soft transitioning effect.</h3>
-                        <h5 class="main__tab__left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod <br>
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br>
-                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                            penatibus et magnis dis parturient montes.<br>
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
-                            bibendum laoreet.</h5>
-                        <button class="main__tab__left__button">Download</button>
-                    </div>
-                </div>
-                <div class="main__tab__right">
-                    <img class="main__tab__img" src="img/state of freedom.jpg">
+                    <div class="contenttab">
+                        <div class="main__tab__left">
+                            <div class="main__tab__left__title">Tabs with soft transitioning effect.</div> 
+                            <div class="main__tab__left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.<br> 
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>  
+                                bibendum laoreet.
+                            </div>
+                            <button class="main__tab__left__button">Download</button>
+                        </div>
+                        <div class="main__tab__right">
+                            <img class="main__tab__right__img" src="img/state of freedom.jpg">
+                        </div>
                 </div>
             </div>
-            <div class="awesome" >
-                <a name="awesome"></a>
-                <div class="header__small">
-                    <h2 class="header__small__title">WHY THIS IS AWESOME</h2>
-                    <div class="header__small__separator"></div>
-                    <h5 class="header__small__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                </div>
-                <div class="main">
-                    <div class="main__block">
-                        <img class="main__img" src="img/logo1.jpg">
-                        <h4 class="main__small-title">Thoughtful Design</h4>
-                        <h5 class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
-                    </div><!--
+        </div>
+            <div class="blocktwo">
+                <div class="awesome" >
+                    <a name="awesome"></a>
+                    <div class="header__small">
+                        <h2 class="header__small__title">WHY THIS IS AWESOME</h2>
+                        <div class="header__small__separator"></div>
+                        <h5 class="header__small__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    </div>
+                    <div class="main">
+                        <div class="main__block">
+                            <img class="main__img" src="img/logo1.jpg">
+                            <h4 class="main__small-title">Thoughtful Design</h4>
+                            <h5 class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+                        </div><!--
 
-                    --><div class="main__block">
-                        <img class="main__img" src="img/logo2.jpg">
-                        <h4 class="main__small-title">Thoughtful Design</h4>
-                        <h5 class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
-                    </div><!--
+                        --><div class="main__block">
+                            <img class="main__img" src="img/logo2.jpg">
+                            <h4 class="main__small-title">Thoughtful Design</h4>
+                            <h5 class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+                        </div><!--
 
-                    --><div class="main__block">
-                        <img class="main__img" src="img/logo3.jpg">
-                        <h4 class="main__small-title">Thoughtful Design</h4>
-                        <h5 class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+                        --><div class="main__block">
+                            <img class="main__img" src="img/logo3.jpg">
+                            <h4 class="main__small-title">Thoughtful Design</h4>
+                            <h5 class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="pricing">
-            <div class="container">
             <a name="price"></a>
             <div class="pricing__title">PRICING OPTIONS</div>
             <div class="pricing__separator"></div>
@@ -180,77 +188,89 @@
                     <div class="pricing__price__space">1 Gb Of Space</div>
                 </div>
             </div>
-            </div>
         </div>
-        <div class="customers">
-            <a name="reviews"></a>
-            <div class="customers__title">what our customers are saying</div>
-            <div class="customers__separator"></div>
-            <div class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            <div class="customers__customer">
-                <div>
-                    <div class="customers__customer__text">Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</div>
-                    <div class="customers__customer__block"></div>
-                    <img class="customers__customer__img" src="img/1man.png">
-                    <div class="customers__customer__name">Davis Rhiel Madsen</div>
-                    <div class="customers__customer__manager">Manager</div>
-                </div>
-                <div class="customer">
-                    <div class="customers__customer__text">Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</div>
-                    <div class="customers__customer__block"></div>
-                    <img class="customers__customer__img" src="img/2man.png">
-                    <div class="customers__customer__name">Jaydon Rosser</div>
-                    <div class="customers__customer__manager">Manager</div>
-                </div>
-                <div>
-                    <div class="customers__customer__text">Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</div>
-                    <div class="customers__customer__block"></div>
-                    <img class="customers__customer__img" src="img/3man.png">
-                    <div class="customers__customer__name">Cooper Dorwart</div>
-                    <div class="customers__customer__manager">Manager</div>
+        <div class="customersbg">
+            <div class="customers">
+                <a name="reviews"></a>
+                <div class="customers__title">what our customers are saying</div>
+                <div class="customers__separator"></div>
+                <div class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="customers__customer">
+                    <div>
+                        <div class="customers__customer__text">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</div>
+                        <div class="customers__customer__block"></div>
+                        <div class="customer__block">
+                            <img class="customers__customer__img" src="img/1man.png">
+                            <div class="onemoreblock">
+                                <div class="customers__customer__name">Davis Rhiel Madsen</div>
+                                <div class="customers__customer__manager">Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <div class="customers__customer__text">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</div>
+                        <div class="customers__customer__block"></div>
+                        <div class="customer__block">
+                            <img class="customers__customer__img" src="img/2man.png">
+                            <div class="onemoreblock">
+                                <div class="customers__customer__name">Jaydon Rosser</div>
+                                <div class="customers__customer__manager">Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="customers__customer__text">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</div>
+                        <div class="customers__customer__block"></div>
+                        <div class="customer__block">
+                            <img class="customers__customer__img" src="img/3man.png">
+                            <div class="onemoreblock">
+                                <div class="customers__customer__name">Cooper Dorwart</div>
+                                <div class="customers__customer__manager">Manager</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div>    
         <div class="stylish">
-            <div class="container">
-                <div class="fontwo">
-                    <div class="stylish__title">STYLISH AXURE DESIGN</div>
-                    <div class="stylish__separator"></div>
-                    <div class="stylish__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
-                    <button class="stylish__button">Download</button>
-                </div>
+            <div class="containerone">
+                <div class="stylish__title">STYLISH AXURE DESIGN</div>
+                <div class="stylish__separator"></div>
+                <div class="stylish__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
+                <button class="stylish__button">Download</button>
             </div>
         </div>
         <div class="contact">
             <a name="contact"></a>
             <div class="contact__title">contact us</div>
-            <div class="contact_separator"></div>
+            <div class="contact__separator"></div>
             <div class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             <form class="contact__allinputs">
                 <div class="contact__left">
                     <input class="contact__left__input" required type="text" placeholder="Name">
                     <input class="contact__left__input" required type="email" placeholder="Email">
                     <input class="contact__left__input" required type="password" placeholder="Password">
-                    <textarea class="contact__right__textarea" required type="text" placeholder="Message"></textarea>
-                <div><button class="contact__button">Send Message</button></div>
+                </div>
+                <textarea class="contact__right__textarea" required type="text" placeholder="Message"></textarea>
+                <button class="contact__button">Send Message</button>
             </form>
         </div>
     </main>
     <footer>
         <div class="footer">
-            <div class="container">
+            <div class="containertwo">
                 <div class="footer__img">
                     <img class="footer__img_img" src="img/facebook_icon.png">
                     <img class="footer__img_img" src="img/twitter_icon.png">

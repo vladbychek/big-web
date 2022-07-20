@@ -1,10 +1,7 @@
 .contact{
    width: 1170px;
    height: 622px;
-   margin-right: auto;
-   margin-left: auto;
-   margin-top: 50px;
-   margin-bottom: 50px;
+   margin: 50px auto;
 }
 .contact__title{
    width: 1170px;
@@ -20,8 +17,7 @@
 .contact__separator{
    width: 170px;
    border-bottom: 1px solid #EC7979 ;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 auto;
 }
 .contact__text{
    margin-left: auto;
@@ -51,18 +47,17 @@
    display: flex;
    align-items: flex-start;
    margin-top: 89px;
+   flex-wrap: wrap;
+   width: 1180px;
 }
 .contact__right__textarea{
    outline: none;
    border-bottom: 1px solid #BDBDBD !important;
    border: 0px ;
-   width: 571px;
+   width: 569px;
    color: black;
-   margin-left: 30px;
+   margin-left: 19px;
    padding-bottom: 173px;
-   position: relative;
-   left: 565px;
-   bottom: 262px;
    resize: none;
    font-family: 'Open Sans';
    font-weight: 400;
@@ -76,11 +71,8 @@
    height: 58px;
    width: 370px;
    border: 0px;
-   right: 500px;
-   position: relative;
-   bottom: 215px;
-   left: 390px;
    cursor: pointer;
+   margin-left: 401px;
 }
 input::-webkit-input-placeholder{
    color: #BDBDBD;
@@ -93,4 +85,38 @@ textarea::-webkit-input-placeholder{
 }
 .contact__button:active{
    background-color: #EC7979;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1509px){
+   .contact{
+      width: 992px;
+      height: 562px;
+      padding: 50px 16px 0;
+   }
+   .contact__title{
+      width: 992px;
+      height: 120px;
+      font-size: 24px;
+   }
+   .contact_separator{
+      width: 144px;
+   }
+   .contact__text{
+      width: 992px;
+      height: 16px;
+      font-size: 14px;
+   }
+   .contact__left__input{
+      width: 486px;
+   }
+   .contact__right__textarea{
+      width: 470px;
+   }
+   .contact__allinputs{
+      width: 992px;
+   }
+   .contact__button{
+      margin: 0 auto;
+   }
 }

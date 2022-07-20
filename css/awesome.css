@@ -1,9 +1,7 @@
 .awesome{
     width: 1170px;
     height: 665px;
-    left: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .header__small__title{
     width: 1170px;
@@ -12,8 +10,6 @@
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    align-items: center;
-    line-height: 42px;
     vertical-align: middle; 
     display: table-cell;
 }
@@ -21,8 +17,7 @@
     width: 170px;
     height: 0px;
     border-bottom: 1px solid #EC7979;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .header__small__text{
     font-weight: 400;
@@ -34,20 +29,18 @@
 }
 .main {
     width: 1170px;
+    margin: 110px auto 0;
 }
 .main__block{
     width: 390px;
     height: 383px;
-    margin-top: 110px;
     display: inline-block;
 }
 .main__img{
     width: 92px;
     height: 92px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 .main__small-title{
     font-size: 24px;
@@ -68,9 +61,58 @@
     line-height: 21px;
     text-align: center;
 }
+.blocktwo{
+    width: 100%;
+    height: 723px;
+}
  *{
     margin: 0px; 
  }
-.header__small{
-    margin-top: 50px;
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1509px){
+    .awesome{
+        width: 992px;
+        height: 518px;
+        margin: 50px auto 0;
+        box-sizing: border-box;
+    }
+    .blocktwo{
+        height: 578px;
+    }
+    .header__small__title{
+        width: 992px;
+        height: 120px;
+        font-size: 24px;
+    }
+    .header__small__separator{
+        width: 142px;
+    }
+    .header__small__text{
+        font-size: 14px;
+        width: 983px;
+        margin-top: 32px;
+    }
+    .main__img{
+        width: 80px;
+        height: 80px;
+        margin: 0 115px 30px;
+    }
+    .main__small-title{
+        width: 318px;
+        height: 82px;
+        font-size: 18px;
+    }
+    .main__text{
+        width: 318px;
+        height: 64px;
+        font-size: 14px;
+    }
+    .main__block{
+        width: 319px;
+    }
+    .main{
+        width: 992px;
+    }
 }

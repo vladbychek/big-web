@@ -20,3 +20,22 @@
    margin-right: auto;
    margin-top: 31px;
 }
+.containertwo{
+   width: 1170px;
+   margin: 0 auto;
+}
+@media screen and (min-width: 1024px) and (max-width: 1509px){
+   .containertwo{
+      height: 164px;
+      width: 1024px;
+   }
+   .footer__text{
+      width: 1024px;
+      height: 21px;
+      font-size: 18px;
+   }
+   .footer__img_img{
+      width: 45px;
+      height: 45px;
+   }
+}
