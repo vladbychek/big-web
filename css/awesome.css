@@ -30,6 +30,7 @@
 .main {
     width: 1170px;
     margin: 110px auto 0;
+    display: flex;
 }
 .main__block{
     width: 390px;
@@ -115,4 +116,64 @@
     .main{
         width: 992px;
     }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1023px){
+    .header__small__title{
+        width: 288px;
+        font-size: 18px;
+        text-align: center;
+        height: 120px;
+    }
+    .header__small__separator{
+        width: 134px;
+    }
+    .header__small__text{
+        width: 288px;
+        text-align: center;
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .header__small{
+        width: 288px;
+    }
+    .main{
+        flex-direction: column;
+        width: 288px;
+        margin-top: 83px;
+        gap: 10px;
+    }
+    .main__img{
+        width: 80px;
+        height: 80px;
+     }
+     .main__small-title{
+        width: 288px;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 33px;
+        height: 82px;
+     }
+     .main__text{
+        width: 288px;
+        line-height: 16px;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 9px;
+        height: 80px;
+     }
+     .awesome{
+        width: 288px;
+        height: 1199px;
+     }
+     .main__block{
+        width: 288px;
+        height: auto;
+     }
+     .blocktwo{
+        height: auto;
+     }
 }

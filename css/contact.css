@@ -57,10 +57,10 @@
    width: 569px;
    color: black;
    margin-left: 19px;
-   padding-bottom: 173px;
    resize: none;
    font-family: 'Open Sans';
    font-weight: 400;
+   height: 203px;
 }
 .contact__button{
    background-color: #EC7979 ;
@@ -118,5 +118,49 @@ textarea::-webkit-input-placeholder{
    }
    .contact__button{
       margin: 0 auto;
+   }
+}
+@media screen and (min-width: 320px) and (max-width: 1023px){
+   .contact__title{
+      width: 287px;
+      height: 120px;
+      font-size: 24px;
+      text-align: center;
+   }
+   .contact__separator{
+      width: 134px;
+   }
+   .contact__text{
+      width: 288px;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      margin-top: 24px;
+   }
+   .contact{
+      width: 288px;
+      height: 807px;
+      margin: 0;
+      padding: 0 16px 40px;
+   }
+   .contact__allinputs{
+      flex-direction: column;
+      margin-top: 64px;
+   }
+   .contact__left__input{
+      width: 288px;
+   }
+   .contact__right__textarea{
+      width: 288px;
+      margin: 0;
+   }
+   .contact__allinputs{
+      width: 288px;
+   }
+   .contact__button{
+      margin-top: 50px;
+      width: 288px;
+      height: 50px;
+      margin-left: 0;
    }
 }

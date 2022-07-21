@@ -61,6 +61,7 @@
    width: 1170px;
    height: 501px;
    border: 1px solid #C6CBCD;
+   border-top: none;
    display: flex; 
 }
 .main__tab__left__button:hover{
@@ -73,6 +74,13 @@
    border: 1px solid #C6CBCD;
    border-radius: 5px 5px 0 0;
    border-bottom: none ;
+}
+.two{
+   border-bottom: 1px solid #C6CBCD;
+}
+.three{
+   border-bottom: 1px solid #C6CBCD;
+   padding-right: 637px;
 }
 .block{
    width: 100%;
@@ -120,5 +128,49 @@
    }
    .main__tab__left__button{
       padding-left: 30px;
+   }
+}
+@media screen and (min-width: 320px) and (max-width: 1023px){
+   .main__tab__left__title{
+      font-size: 18px;
+      width: 242px;
+      line-height: 24px;
+      text-align: center;
+   }
+   .main__tab__left__text{
+      font-size: 13px;
+      width: 242px;
+      text-align: center;
+      line-height: 15px;
+      margin-right: 0;
+   }
+   .main__tab__left__button{
+      width: 242px;
+      height: 50px;
+   }
+   .main__tab__right__img{
+      display: none;
+   }
+   .contenttab{
+      width: 288px;
+      height: 445px;
+   }
+   .main__tab__left{
+      padding: 0 20px 29px;
+      margin: 0 auto;
+   }
+   .main__tab__left__smalltab{
+      width: 96px;
+   }
+   .three{
+      padding-right: 0;
+   }
+   .block{
+     height: auto;
+     padding-top: 30px;
+   }
+   .main__tab{
+      width: auto;
+      padding-left: 15px;
    }
 }

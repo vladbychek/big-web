@@ -215,6 +215,10 @@ a:visited{
 .threeinput{
    padding: 0 50px 50px;
 }
+.header__head__menutwo{
+   display: none;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1509px){
    .header__head__menu {
       margin-right: 20px;
@@ -241,7 +245,7 @@ a:visited{
       line-height: 16px;
       margin-top: 31px;
    }
-   .header__main__left_button{
+   .header__main__left__button{
       width: 183px;
    }
    .header__main__right{
@@ -271,10 +275,110 @@ a:visited{
       width: 64px;
       height: 64px;
    }
-   .header__footer_right{
+   .header__footer__right{
       gap: 25px;
    }
    .header{
       height: 873px;
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px){
+   .header__head__menu{
+      display: none;
+   }
+   .header__head__logo{
+      margin-left: 20px;
+   }
+   .header__main__left__logo{
+      display: none;
+   }
+   .header__main__left_text{
+      width: 288px;
+      text-align: center;
+      margin: 0;
+      font-size: 36px;
+      line-height: 42px;
+   }
+   .header__main__left_separator{
+      width: 134px;
+      margin: 34px auto;
+   }
+   .header__main__left_smalltext{
+      width: 288px;
+      text-align: center;
+      margin-top: 42px;
+      line-height: 16px;
+      font-size: 14px;
+   }
+   .header__main__left__button{
+      width: 288px;
+      height: 50px;
+   }
+   .leftandright{
+      flex-direction: column;
+      padding: 84px 16px 50px;
+      width: 288px;
+      gap: 0px;
+   }
+   .header__main__right{
+      width: 299px;
+      height: 381px;
+      margin-top: 56px;
+   }
+   .header__main__right__text{
+      width: 240px;
+      font-size: 14px;
+      justify-content: center;
+      margin-bottom: 0;
+   }
+   .threeinput{
+      padding: 0 28px 0 20px;
+   }
+   .header__main__right__button{
+      margin-top: 39px;
+   }
+   .header__footer__left__title{
+      width: 287px;
+      font-size: 18px;
+      text-align: center;
+      height: 45px;
+      justify-content: center;
+   }
+   .header__footer__left__text{
+      width: 271px;
+      text-align: center;
+      font-size: 14px;
+      line-height: 16px;
+      margin: 0 auto;
+   }
+   .header__footer_right__img{
+      width: 26px;
+      height: 26px;
+   }
+   .f{
+      width: 26px;
+      height: 26px;
+   }
+   .header__footer__right{
+      gap: 10px;
+      margin-top: 0;
+   }
+   .footercont{
+      flex-direction: column;
+      padding: 31px 16px 45px ;
+   }
+   .header__footer{
+      height: 230px;
+   }
+   .header__head__menutwo{
+      padding-left: 155px;
+      padding-top: 10px;
+      display: inline;
+      height: 18px;
+      width: 24px;
+   }
+   .header__head__logo{
+      display: flex;
    }
 }
