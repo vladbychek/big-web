@@ -140,7 +140,7 @@ textarea::-webkit-input-placeholder{
    .contact{
       width: 288px;
       height: 807px;
-      margin: 0;
+      margin: 0 auto;
       padding: 0 16px 40px;
    }
    .contact__allinputs{

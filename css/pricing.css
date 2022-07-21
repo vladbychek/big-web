@@ -187,19 +187,21 @@
       flex-direction: column;
       height: auto;
       padding: 0 16px;
+      justify-content: center;
    }
    .pricetwo{
-      margin: 27px 0;
       filter: none;
+      margin: 27px auto 0;
    }
    .pricing{
       height: auto;
    }
    .pricethree{
       position: static;
+      margin: 0 auto;
    }
    .priceone{
       position: static;
-      margin-top: 30px;
+      margin: 30px auto 0;
    }
 }

@@ -372,13 +372,11 @@ a:visited{
       height: 230px;
    }
    .header__head__menutwo{
-      padding-left: 155px;
-      padding-top: 10px;
-      display: inline;
+      padding-top: 25px;
+      padding-right: 30px;
+      display: block;
       height: 18px;
       width: 24px;
-   }
-   .header__head__logo{
-      display: flex;
+      float: right;
    }
 }

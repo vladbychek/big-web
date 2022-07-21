@@ -168,6 +168,7 @@
    .block{
      height: auto;
      padding-top: 30px;
+     display: flex;
    }
    .main__tab{
       width: auto;
