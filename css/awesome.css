@@ -69,9 +69,6 @@
  *{
     margin: 0px; 
  }
-
-
-
 @media screen and (min-width: 1024px) and (max-width: 1509px){
     .awesome{
         width: 992px;
